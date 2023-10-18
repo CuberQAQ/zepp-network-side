@@ -2,9 +2,9 @@
 
 Polyfill of network.download API for ZeppOS 1.0/2.0/2.1 app-side.
 
-This project include @cuberqaq/fs-side module. It use settings storage api to storage data, not a true file system, so don't save many big files. Welcome to send issues and PR to make this project better!
+This project includes @cuberqaq/fs-side module. It uses settings storage api to storage data, not a true file system, so don't save many big files. Welcome to send issues and PR to make this project better!
 
-Corrently not support segmented download, timeout, onProgress event. Some of the functions have not been tested yet,
+Corrently not support segmented download, timeout and onProgress event. Some of the functions have not been tested yet,
 
 Using whatwg-fetch(polyfill of fetch) as fetch api, which uses XMLHttpRequest to access the network.
 
