@@ -6,7 +6,13 @@ This project includes @cuberqaq/fs-side module. It uses settings storage api to 
 
 Corrently not support segmented download, timeout and onProgress event. Some of the functions have not been tested yet,
 
-Using whatwg-fetch(polyfill of fetch) as fetch api, which uses XMLHttpRequest to access the network.
+Using whatwg-fetch(polyfill of fetch) as fetch api, which uses XMLHttpRequest to access the network, so if the host server not support CORS, the request will be blocked. Like this:
+
+```
+Access to XMLHttpRequest at 'https://docs.zepp.com/img/logo.png' from origin 'http://zepp-os-staging.zepp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+
+If possible, please use Offical ZeppOS network.download API.
 
 Based to @cuberqaq/fs-side module to storage files, you should also access the files by it. see [CuberQAQ/zepp-fs-side: Simple Lib for ZeppOS 1.0/2.0/2.1 app-side to build a vitual file system.](https://github.com/CuberQAQ/zepp-fs-side#readme)
 
