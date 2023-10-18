@@ -1,0 +1,32 @@
+{
+  "name": "@cuberqaq/network-side",
+  "version": "1.0.2",
+  "description": "Polyfill of network.download API for ZeppOS 2.0 app-side",
+  "main": "index.js",
+  "scripts": {
+    "compile": "esbuild src/index.ts --minify --outfile=index.js --bundle --format=esm --platform=browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuberQAQ/zepp-network-side.git"
+  },
+  "keywords": [
+    "zepp"
+  ],
+  "types": "index.d.ts",
+  "author": "CuberQAQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CuberQAQ/zepp-network-side/issues"
+  },
+  "homepage": "https://github.com/CuberQAQ/zepp-network-side#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@zeppos/device-types": "^3.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@cuberqaq/fs-side": "^1.0.2",
+    "whatwg-fetch": "^3.6.19"
+  }
+}
