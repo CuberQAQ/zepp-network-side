@@ -14,7 +14,7 @@ Access to XMLHttpRequest at 'https://docs.zepp.com/img/logo.png' from origin 'ht
 
 If possible, please use Offical ZeppOS network.download API.
 
-Based to @cuberqaq/fs-side module to storage files, you should also access the files by it. see [CuberQAQ/zepp-fs-side: Simple Lib for ZeppOS 1.0/2.0/2.1 app-side to build a vitual file system.](https://github.com/CuberQAQ/zepp-fs-side#readme)
+Based on @cuberqaq/fs-side module to storage files, you should also access the files by it. see [CuberQAQ/zepp-fs-side: Simple Lib for ZeppOS 1.0/2.0/2.1 app-side to build a vitual file system.](https://github.com/CuberQAQ/zepp-fs-side#readme)
 
 ## 1. Install
 
